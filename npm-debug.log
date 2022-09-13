@@ -1,0 +1,186 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'clean-css-cli' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData clean-css-cli
+8 silly fetchNamedPackageData clean-css-cli
+9 silly mapToRegistry name clean-css-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/clean-css-cli
+13 verbose request uri https://registry.npmjs.org/clean-css-cli
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 14:37:15
+16 verbose request id 8771d8d3841337ed
+17 verbose etag W/"8cda77cf891dec7cdef6815df4610d2b"
+18 verbose lastModified Wed, 13 Jul 2022 09:46:11 GMT
+19 http request GET https://registry.npmjs.org/clean-css-cli
+20 http 304 https://registry.npmjs.org/clean-css-cli
+21 verbose headers { date: 'Tue, 06 Sep 2022 17:37:16 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'cf-ray': '7468f8b99faf25e1-GIG',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"8cda77cf891dec7cdef6815df4610d2b"',
+21 verbose headers   'last-modified': 'Wed, 13 Jul 2022 09:46:11 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'REVALIDATED',
+21 verbose headers   'x-amz-replication-status': 'COMPLETED',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 06 Sep 2022 17:37:16 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'cf-ray': '7468f8b99faf25e1-GIG',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"8cda77cf891dec7cdef6815df4610d2b"',
+22 silly get     'last-modified': 'Wed, 13 Jul 2022 09:46:11 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'REVALIDATED',
+22 silly get     'x-amz-replication-status': 'COMPLETED',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/clean-css-cli from cache
+24 verbose get saving clean-css-cli to /home/matheus/.npm/registry.npmjs.org/clean-css-cli/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule clean-css-cli@5.6.1 checking installable status
+38 silly cache add args [ 'clean-css-cli', null ]
+39 verbose cache add spec clean-css-cli
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'clean-css-cli',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'clean-css-cli',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed clean-css-cli@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for clean-css-cli
+43 info addNameTag [ 'clean-css-cli', 'latest' ]
+44 silly mapToRegistry name clean-css-cli
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/clean-css-cli
+48 verbose addNameTag registry:https://registry.npmjs.org/clean-css-cli not in flight; fetching
+49 verbose get https://registry.npmjs.org/clean-css-cli not expired, no request
+50 silly addNameTag next cb for clean-css-cli with tag latest
+51 silly addNamed clean-css-cli@5.6.1
+52 verbose addNamed "5.6.1" is a plain semver version for clean-css-cli
+53 silly cache afterAdd clean-css-cli@5.6.1
+54 verbose afterAdd /home/matheus/.npm/clean-css-cli/5.6.1/package/package.json not in flight; writing
+55 verbose afterAdd /home/matheus/.npm/clean-css-cli/5.6.1/package/package.json written
+56 silly fetchNamedPackageData chokidar
+57 silly mapToRegistry name chokidar
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/chokidar
+61 silly fetchNamedPackageData clean-css
+62 silly mapToRegistry name clean-css
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/clean-css
+66 silly fetchNamedPackageData commander
+67 silly mapToRegistry name commander
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/commander
+71 silly fetchNamedPackageData glob
+72 silly mapToRegistry name glob
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/glob
+76 verbose request uri https://registry.npmjs.org/commander
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 14:37:16
+79 verbose etag W/"a8f44fee62df40b08706acaf62915148"
+80 verbose lastModified Tue, 09 Aug 2022 12:41:39 GMT
+81 http request GET https://registry.npmjs.org/commander
+82 verbose request uri https://registry.npmjs.org/glob
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 14:37:16
+85 verbose etag W/"0d21fc907085aea3cbbe5c78cf6d2320"
+86 verbose lastModified Sat, 18 Jun 2022 12:53:27 GMT
+87 http request GET https://registry.npmjs.org/glob
+88 verbose request uri https://registry.npmjs.org/chokidar
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 14:37:16
+91 verbose etag W/"860e59ebd3765f448cc1908756dda159"
+92 verbose lastModified Mon, 13 Jun 2022 05:59:18 GMT
+93 http request GET https://registry.npmjs.org/chokidar
+94 verbose request uri https://registry.npmjs.org/clean-css
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 14:37:16
+97 verbose etag W/"0837dc486a809eb57feb73351827d433"
+98 verbose lastModified Wed, 13 Jul 2022 09:32:50 GMT
+99 http request GET https://registry.npmjs.org/clean-css
+100 http 304 https://registry.npmjs.org/commander
+101 verbose headers { date: 'Tue, 06 Sep 2022 17:37:16 GMT',
+101 verbose headers   connection: 'keep-alive',
+101 verbose headers   'cf-ray': '7468f8bcedf625e1-GIG',
+101 verbose headers   age: '193',
+101 verbose headers   'cache-control': 'public, max-age=300',
+101 verbose headers   etag: '"a8f44fee62df40b08706acaf62915148"',
+101 verbose headers   'last-modified': 'Tue, 09 Aug 2022 12:41:39 GMT',
+101 verbose headers   vary: 'Accept-Encoding',
+101 verbose headers   'cf-cache-status': 'HIT',
+101 verbose headers   'x-amz-replication-status': 'COMPLETED',
+101 verbose headers   server: 'cloudflare' }
+102 silly get cb [ 304,
+102 silly get   { date: 'Tue, 06 Sep 2022 17:37:16 GMT',
+102 silly get     connection: 'keep-alive',
+102 silly get     'cf-ray': '7468f8bcedf625e1-GIG',
+102 silly get     age: '193',
+102 silly get     'cache-control': 'public, max-age=300',
+102 silly get     etag: '"a8f44fee62df40b08706acaf62915148"',
+102 silly get     'last-modified': 'Tue, 09 Aug 2022 12:41:39 GMT',
+102 silly get     vary: 'Accept-Encoding',
+102 silly get     'cf-cache-status': 'HIT',
+102 silly get     'x-amz-replication-status': 'COMPLETED',
+102 silly get     server: 'cloudflare' } ]
+103 verbose etag https://registry.npmjs.org/commander from cache
+104 verbose get saving commander to /home/matheus/.npm/registry.npmjs.org/commander/.cache.json
+105 verbose stack Error: Missing required argument #1
+105 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+105 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+105 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+105 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+105 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+105 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+105 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+105 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+105 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+105 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+106 verbose cwd /home/matheus/Área de Trabalho/portfolio
+107 error Linux 5.0.0-32-generic
+108 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "clean-css-cli"
+109 error node v8.10.0
+110 error npm  v3.5.2
+111 error code EMISSINGARG
+112 error typeerror Error: Missing required argument #1
+112 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+112 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+112 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+112 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+112 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+112 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+112 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+112 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+112 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+112 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+113 error typeerror This is an error with npm itself. Please report this error at:
+113 error typeerror     <http://github.com/npm/npm/issues>
+114 verbose exit [ 1, true ]
